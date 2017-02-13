@@ -1,0 +1,3 @@
+cl_data=[{u'chain_n': u'0', u'record_status': u'Ready', u'media_ref': u'', u'dial_sched_time': u'', u'record_type': u'General', u'record_id': u'72', u'call_result': u'Unknown Call Result', u'daily_till': u'86340', u'group_id': u'', u'chain_id': u'72', u'email_template_id': u'', u'agent_id': u'', u'contact_info': u'thompson@genesys.com', u'attempt': u'0', u'treatments': u'', u'call_time': u'', u'daily_from': u'0', u'switch_id': u'', u'tz_dbid': u'IST', u'camp_name_0': u'Outbound Contact - Sample Campaign', u'contact_info_type': u'E-Mail Address', u'app_id': u'', u'email_subject': u'', u'campaign_id': u'107'}]
+dic = cl_data[0]
+print dic.keys()[dic.values().index(data[0])]	
